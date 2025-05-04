@@ -75,6 +75,7 @@
     }{%
         \ifbool{parconeshot}{%   
             \booltrue{parcbool}%
+            \boolfalse{parconeshot}%
         }{}%
     }}
 
