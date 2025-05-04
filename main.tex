@@ -5,6 +5,7 @@
 %    large margins and a draft notice in the upper right corner.
 % The expert-report class also uses the following commands which are not
 % present in the article class:
+%  - \noparnum to write an unnumbered paragraph
 %  - \firstparty{} to set the first parties
 %  - \firstpartytitle{} to set the title for the first party
 %  - \secondparty{} to set the second parties
@@ -26,9 +27,11 @@
 \title{Expert Report of Matthew W. Thomas}
 \date{\today}
 
-\plaintiff{FEDERAL~TRADE~COMMISSION}
+\plaintiff{
+    \mbox{FEDERAL TRADE COMMISSION}%
+}
 \defendants{
-    \mbox{ASide INC, a corporation;}
+    \mbox{ASide INC, a corporation};
     \mbox{BSide LLC, a limited liability company}%
 }
 \court{United States District Court \\ for the District of Columbia}
