@@ -94,6 +94,8 @@
 \AfterEndEnvironment{itemize}{\booltrue{parcbool}}
 \BeforeBeginEnvironment{enumerate}{\boolfalse{parcbool}}
 \AfterEndEnvironment{enumerate}{\booltrue{parcbool}}
+\BeforeBeginEnvironment{description}{\boolfalse{parcbool}}
+\AfterEndEnvironment{description}{\booltrue{parcbool}}
 
 % No paragraph numbers in math
 \BeforeBeginEnvironment{equation}{\boolfalse{parcbool}}
