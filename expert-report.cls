@@ -23,7 +23,6 @@
     bottom=1.75in]{geometry}
 \usepackage{setspace}
 \usepackage{parskip}
-\usepackage{mathptmx}   % Times New Roman font
 \usepackage{fmtcount}   % For converting counter to integer
 \usepackage{fancyhdr}   % For fancy headers/footers
 \usepackage{etoolbox}   % For more programming capabilities: pretocmd and apptocmd commands
