@@ -1,4 +1,27 @@
-\ProvidesClass{expert-report}[2025/05/03 v0.1 Federal Trade Commission Expert Report Class]
+\ProvidesClass{expert-report}[2025/05/20 v0.2 Federal Trade Commission Expert Report Class]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Author: Matthew W. Thomas
+% License: GPLv3
+% Source: https://github.com/mwt/latex-expert-report-ftc
+%
+% This is a template for expert reports. It is based on the article class. The
+% following options are available:
+%  - final: do not specify that the current version is a draft. Drafts have
+%    large margins and a draft notice in the upper right corner.
+% The expert-report class also uses the following commands which are not
+% present in the article class:
+%  - \noparnum to write an unnumbered paragraph
+%  - \firstparty{} to set the first parties
+%  - \firstpartytitle{} to set the title for the first party
+%  - \secondparty{} to set the second parties
+%  - \secondpartytitle{} to set the title for the second party
+%  - \court{} to set the court
+%  - \actionnumber{} to set the action number
+%  - \plaintiff{}, \plaintiffs{}, \appellant{}, \appellants{}, \petitioner{},
+%    \petitioners{} are convenience commands for the first party and title
+%  - \defendant{}, \defendants{}, \appellee{}, \appellees{} \respondent{},
+%    \respondents{} are convenience commands for the second party and title
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 % Add final option
 \newif\if@final
